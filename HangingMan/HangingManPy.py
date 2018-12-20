@@ -1,15 +1,31 @@
+
+#    _    _                   _               __  __                #
+#   | |  | |                 (_)             |  \/  |               #
+#   | |__| | __ _ _ __   __ _ _ _ __   __ _  | \  / | __ _ _ __     #
+#   |  __  |/ _` | '_ \ / _` | | '_ \ / _` | | |\/| |/ _` | '_ \    #
+#   | |  | | (_| | | | | (_| | | | | | (_| | | |  | | (_| | | | |   #
+#   |_|  |_|\__,_|_| |_|\__, |_|_| |_|\__, | |_|  |_|\__,_|_| |_|   #
+#                        __/ |         __/ |                        #
+#                       |___/         |___/                         #
+########### AND SOMETIMES I AM READY TO HANG MYSELF, LMAO ###########
+
+
 import random
 
 def guessingWord(word):
-    counter =
+    counter = 0
     times = 5
+    guessedChar = []
     charToGuess = ''
     while counter < times:
         charToGuess = input('What character do you want to guess?')
-        if charToGuess in word:
+        if charToGuess in word and charToGuess not in guessedChar:
             print('Correct. The word has ', word.count(charToGuess), ' instances')
+        elif charToGuess in word and charToGuess in guessedChar:
+            print('This character has been approved.')
         else:
             print('Incorrect. You have ', times - 1 - counter , ' chances left.')
+        counter+=1
 
 
 
