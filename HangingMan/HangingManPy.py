@@ -1,8 +1,18 @@
 import random
 
 def guessingWord(word):
-    charToGuess = input('What character do you want to guess?')
-    if charToGuess in word:
+    counter =
+    times = 5
+    charToGuess = ''
+    while counter < times:
+        charToGuess = input('What character do you want to guess?')
+        if charToGuess in word:
+            print('Correct. The word has ', word.count(charToGuess), ' instances')
+        else:
+            print('Incorrect. You have ', times - 1 - counter , ' chances left.')
+
+
+
 
 def guessChar(c):
     return 0
