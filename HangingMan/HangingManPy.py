@@ -15,25 +15,33 @@ import random
 def guessingWord(word):
     counter = 0
     times = 5
+    underScoreOfWord = underScore(word) # Underscore = '_ _ _ _ _ _ _ _ _ _ _ '
     guessedChar = []
     charToGuess = ''
     while counter < times:
+        if counter == times - 1:
+            print('Warning!! The man is about to die. Choose your next character carefully!')
         charToGuess = input('What character do you want to guess?')
         if charToGuess in word and charToGuess not in guessedChar:
             print('Correct. The word has ', word.count(charToGuess), ' instances')
+
         elif charToGuess in word and charToGuess in guessedChar:
             print('This character has been approved.')
         else:
-            print('Incorrect. You have ', times - 1 - counter , ' chances left.')
-        counter+=1
+            counter += 1
+            print('Incorrect. You have ', times - counter , ' chances left.')
+
+
+def underScore(word):
+    underScore = ''
+    for i in range(len(word)):
+        underScore += '_'
+        underScore += ' '
+    return underScore
 
 
 
-
-def guessChar(c):
-    return 0
-
-
+# This is main
 fileName = '3000WordList.txt'
 inFile = open(fileName, 'r')
 
