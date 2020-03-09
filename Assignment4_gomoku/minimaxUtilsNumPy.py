@@ -116,10 +116,11 @@ def getWinner(b):
     :param b:
     :return: 1 or -1 or None :if no winner
     '''
-    directions = [([0, 1], [0, -1]), ([1, 0], [-1, 0]), ([-1, 1], [1, -1]), ([1, 1], [-1, -1])]
-    for direction in directions:
-        continue_chess = 0
-    return False
+    my_directions = [[0, [1]], [1, [0]], [1,[1]], [1, [-1]]] #horizontal, vertical, leftrightdown, leftrightup
+    directions = [([0, 1], [0, -1]), ([1, 0], [-1, 0]), ([-1, 1], [1, -1]), ([1, 1], [-1,-1])]
+    
+    # Horizontal
+  
 
 
     # ------------------- Tie -------------------
