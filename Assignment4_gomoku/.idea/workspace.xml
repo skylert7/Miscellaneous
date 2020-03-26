@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a17345f6-c1fa-4601-a27c-833144e292bd" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1YGDhT8r9xmfPtUpDiX5SeDiYOv" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\tas\OneDrive - Southern Methodist University\2020_classes\AI\Assignment4_gomoku" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.minimaxUtilsNumPy">
+    <configuration name="MinimaxNumpy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4_gomoku" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/MinimaxNumpy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="gomoku" type="PythonConfigurationType" factoryName="Python">
+      <module name="Assignment4_gomoku" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gomoku.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="minimaxUtilsNumPy" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Assignment4_gomoku" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/minimaxUtilsNumPy.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.gomoku" />
+      <item itemvalue="Python.MinimaxNumpy" />
+      <item itemvalue="Python.minimaxUtilsNumPy" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.minimaxUtilsNumPy" />
+        <item itemvalue="Python.MinimaxNumpy" />
+        <item itemvalue="Python.MinimaxNumpy" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a17345f6-c1fa-4601-a27c-833144e292bd" name="Default Changelist" comment="" />
+      <created>1582560156156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1582560156156</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="140" y="92" width="1086" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583734815959">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="140" y="92" width="1086" height="704" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1368.872@0.0.1368.872" timestamp="1583734815958" />
+    <state width="1348" height="226" key="GridCell.Tab.0.bottom" timestamp="1583738761117">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1348" height="226" key="GridCell.Tab.0.bottom/0.0.1368.872@0.0.1368.872" timestamp="1583738761117" />
+    <state width="1348" height="226" key="GridCell.Tab.0.center" timestamp="1583738761117">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1348" height="226" key="GridCell.Tab.0.center/0.0.1368.872@0.0.1368.872" timestamp="1583738761117" />
+    <state width="1348" height="226" key="GridCell.Tab.0.left" timestamp="1583738761116">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1348" height="226" key="GridCell.Tab.0.left/0.0.1368.872@0.0.1368.872" timestamp="1583738761116" />
+    <state width="1348" height="226" key="GridCell.Tab.0.right" timestamp="1583738761117">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state width="1348" height="226" key="GridCell.Tab.0.right/0.0.1368.872@0.0.1368.872" timestamp="1583738761117" />
+    <state x="186" y="80" key="SettingsEditor" timestamp="1583735029044">
+      <screen x="0" y="0" width="1368" height="872" />
+    </state>
+    <state x="186" y="80" key="SettingsEditor/0.0.1368.872@0.0.1368.872" timestamp="1583735029044" />
+  </component>
+</project>
