@@ -7,6 +7,21 @@
 #define FALSE 0
 // main function - 
 // where the execution of program begins 
+
+typedef struct {
+    char** array;
+    int width, row, col;
+} Shape;
+Shape current;
+
+void DeleteShape(Shape shape) {
+    int i;
+    for (i = 0; i < shape.width; i++) {
+        free(shape.array[i]);
+    }
+    free(shape.array);
+}
+
 int main()
 {
 
